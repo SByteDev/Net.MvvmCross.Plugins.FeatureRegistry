@@ -1,0 +1,1 @@
+# Net.MvvmCross.Plugins.FeatureRegistry
