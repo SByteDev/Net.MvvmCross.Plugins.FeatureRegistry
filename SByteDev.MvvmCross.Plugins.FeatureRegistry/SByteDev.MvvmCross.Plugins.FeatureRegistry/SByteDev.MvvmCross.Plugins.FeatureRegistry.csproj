@@ -1,0 +1,29 @@
+<Project Sdk="MSBuild.Sdk.Extras/2.0.54">
+
+    <PropertyGroup>
+        <TargetFramework>netstandard2.0</TargetFramework>
+        <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+        <PackageId>SByteDev.MvvmCross.Plugins.FeatureRegistry</PackageId>
+        <PackageVersion>1.0.0</PackageVersion>
+        <Title>MvvmCross FeatureRegistry Plugin</Title>
+        <Description>FeatureRegistry Plugin for MvvmCross.</Description>
+        <Copyright>SByteDev</Copyright>
+        <Authors>Prin53, SByteDev</Authors>
+        <Owners>Prin53, SByteDev</Owners>
+        <NeutralLanguage>en</NeutralLanguage>
+        <PackageTags>xamarin, mvvmcross, featureregistry</PackageTags>
+        <PackageIconUrl>https://i.imgur.com/DtkfyPTm.jpg</PackageIconUrl>
+        <PackageProjectUrl>https://github.com/SByteDev/Net.MvvmCross.Plugins.FeatureRegistry</PackageProjectUrl>
+        <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
+        <PackageLicenseExpression>MIT</PackageLicenseExpression>
+        <PublishRepositoryUrl>true</PublishRepositoryUrl>
+        <RepositoryType>git</RepositoryType>
+        <RepositoryUrl>https://github.com/SByteDev/Net.MvvmCross.Plugins.FeatureRegistry</RepositoryUrl>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <PackageReference Include="MvvmCross" Version="6.4.1" />
+        <PackageReference Include="SByteDev.Plugins.FeatureRegistry" Version="1.0.0" />
+    </ItemGroup>
+
+</Project>
