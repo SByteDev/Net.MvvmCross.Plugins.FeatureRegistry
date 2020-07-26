@@ -1,9 +1,8 @@
 # MvvmCross FeatureRegistry Plugin
 ![GitHub](https://img.shields.io/github/license/SByteDev/Net.MvvmCross.Plugins.FeatureRegistry.svg)
 ![Nuget](https://img.shields.io/nuget/v/SByteDev.MvvmCross.Plugins.FeatureRegistry.svg)
-
-[![Build Status](https://travis-ci.org/SByteDev/Net.MvvmCross.Plugins.FeatureRegistry.svg?branch=master)](https://travis-ci.org/SByteDev/Net.MvvmCross.Plugins.FeatureRegistry)
-[![codecov](https://codecov.io/gh/SByteDev/Net.MvvmCross.Plugins.FeatureRegistry/branch/master/graph/badge.svg)](https://codecov.io/gh/SByteDev/Net.MvvmCross.Plugins.FeatureRegistry)
+[![Build Status](https://img.shields.io/bitrise/2143b9997fcde20f/develop?label=development&token=nP0cAVtABQO62Eg8_HqMvA&branch)](https://app.bitrise.io/app/2143b9997fcde20f)
+[![Build Status](https://img.shields.io/bitrise/2143b9997fcde20f/master?label=production&token=nP0cAVtABQO62Eg8_HqMvA&branch)](https://app.bitrise.io/app/2143b9997fcde20f)
 [![CodeFactor](https://www.codefactor.io/repository/github/sbytedev/net.mvvmcross.plugins.featureregistry/badge)](https://www.codefactor.io/repository/github/sbytedev/net.mvvmcross.plugins.featureregistry)
 
 Provides a singleton to store the information about enabled or disabled application features. Features can be represented by a `string`, `Type` or `Enum`.
